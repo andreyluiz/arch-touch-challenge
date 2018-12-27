@@ -1,0 +1,29 @@
+{
+  "name": "arch-touch-challenge",
+  "version": "1.0.0",
+  "description": "Arch Touch code challenge.",
+  "main": "index.js",
+  "repository": "git@github.com:andreyluiz/arch-touch-challenge.git",
+  "author": "Andrey Luiz <andreyluiz.developer@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "gulp",
+    "start": "gulp serve"
+  },
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.4.0",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-image": "^4.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "postcss-cssnext": "^3.0.2",
+    "pump": "^1.0.2"
+  }
+}
